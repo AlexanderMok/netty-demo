@@ -1,0 +1,17 @@
+logging:
+  level:
+    web: debug
+
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+
+
+security:
+  cors:
+    allowedOriginPatterns:
+      - "http://localhost:8081"
+      - "https://www.company.com"
+
